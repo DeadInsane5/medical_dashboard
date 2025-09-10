@@ -1,0 +1,19 @@
+#billing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#payment-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.payment-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}

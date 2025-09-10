@@ -1,13 +1,14 @@
 import React from "react";
 import PaymentOps from "./components/PaymentOps";
 import Checkout from "./components/Checkout";
+import './styles/Billing.css';
 
 function Billing() {
   return (
     <div>
       <h1>Billing</h1>
-      <div>
-        <div>
+      <div id="billing-container">
+        <div id="payment-options">
           <h2>Payment Options</h2>
           <div>
             <ul>
@@ -19,7 +20,7 @@ function Billing() {
             </ul>
           </div>
         </div>
-        <div>
+        <div id="checkout">
           <Checkout />
         </div>
       </div>
