@@ -11,6 +11,8 @@ body {
     font-family: var(--font-family);
     background-color: var(--secondary);
     color: var(--primary);
+
+    overflow: hidden;
 }
 
 a {
