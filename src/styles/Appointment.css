@@ -1,0 +1,10 @@
+#appointment-container {
+    width: 100vw;
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
